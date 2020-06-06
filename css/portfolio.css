@@ -65,7 +65,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.02em;
 }
 .contacts:hover,
@@ -117,6 +117,7 @@ body {
   color: var(--text-color-w);
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 .footer-title {
   color: var(--text-color-w);
@@ -124,9 +125,20 @@ body {
   line-height: 1.14;
   font-weight: 700;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .produce {
   color: rgba(255, 255, 255, 0.4);
   font-size: 12px;
   line-height: 2;
+  text-align: center;
+}
+.contacts-in-footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-style: normal;
 }
