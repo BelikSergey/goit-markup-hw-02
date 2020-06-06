@@ -64,7 +64,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.02em;
 }
 .contacts:hover,
@@ -80,6 +80,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .link.main {
   color: var(--text-color-w);
@@ -115,10 +116,11 @@ body {
 .services {
   color: var(--text-color-w);
   background-color: tomato;
-  /* добавли задний фон, а то плохо видно */
+  /* добавил задний фон, а то плохо видно */
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* cекция Наша команда */
@@ -149,13 +151,21 @@ body {
   color: var(--text-color-w);
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
+}
+.contacts-in-footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
 }
 .footer-title {
   color: var(--text-color-w);
   font-size: 14px;
   line-height: 1.14;
   font-weight: 700;
-  letter-spacing: 0.03em;
 }
 .produce {
   color: rgba(255, 255, 255, 0.4);
